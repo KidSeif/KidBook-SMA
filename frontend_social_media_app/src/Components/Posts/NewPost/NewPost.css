@@ -1,0 +1,72 @@
+.newpost{
+    width: 90%;
+    margin: 10px;
+    color: black;
+    box-shadow: 0 1px 6px -4px #54595e;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.newpostDetails{
+    display: flex;
+    width: 100%;
+}
+
+.newpostTextBox{
+    width: 100%;
+}
+
+.newpostTextBox textarea{
+    line-height: 1.5;
+    font-size: 14px;
+    border: 1px solid white;
+    padding: 10px;
+    width: 100%;
+}
+
+.newpostProfileImage{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    border-radius: 6px;
+    margin-right: 10px;
+    overflow: hidden;
+}
+
+
+.newpostProfileImage img{
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.newpostTextBox textarea::placeholder{
+    color: rgb(145, 142, 142);
+}
+
+.newpostTextBox textarea:focus{
+    outline: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.newpostButtons{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+}
+
+.newpostButtons button{
+    cursor: pointer;
+    background-color: #1877f2;
+    color: white;
+    margin-top: 10px;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    
+}

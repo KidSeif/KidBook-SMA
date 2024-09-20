@@ -1,0 +1,54 @@
+.username_card{
+    margin: 30px 20px;
+    padding: 20px;
+    box-shadow: 0px 1px 6px -2px #54595e;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 15px;
+    gap: 5px;
+   
+}
+
+.username_img{
+    align-items: center;
+    text-align: center;
+    display: flex;
+    overflow: hidden;
+    width: 90px;
+    height: 90px;
+}
+
+
+.profile_caracter{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+    border-radius: 15px;
+    background-color: rgb(45, 71, 124);
+    color: aliceblue;
+    font-family:Arial, Helvetica, serif;
+}
+
+.username_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+h3.username{
+    font-size: 20px;
+    margin: 5px 10px;
+
+}
+
+span.small{
+    font-size: 15px;
+    margin: 10px;
+}
+

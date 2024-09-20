@@ -1,0 +1,72 @@
+.request{
+    box-shadow: 0 1px 6px -4px #54595c;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+
+.userImage{
+    object-fit: cover;
+    width: 60px;
+    height: 70px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+
+.requestDetails{
+    display:flex ;
+    align-items: center;
+    padding-top: 4px;
+}
+
+.requestDetails p{
+    font-size: 12px;
+}
+
+.requestAnswer{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.requestAnswer button{
+    cursor: pointer;
+    width: 48%;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+
+.acceptButton{
+    background-color: #1877f2;
+    color: white;
+}
+
+.acceptButton:hover{
+    border: 1.5px solid #056bf1 ;
+    font-weight:bold ;
+
+}
+
+.declineButton{
+    background-color: white ;
+    color: #1877f2;
+    border: 1px solid #1877f2 !important;
+}
+
+.declineButton:hover{
+    border: 1.5px solid #056bf1 !important ;
+    font-weight:bold ;
+}
+
+
+

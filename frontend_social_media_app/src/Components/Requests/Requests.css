@@ -1,0 +1,29 @@
+.requests{
+    padding: 0 20px;
+}
+
+.requests-title{
+    display: flex;
+    align-items: center;
+    
+}
+
+.requests-title h4{
+    color: #b6b9bc;
+    margin-left: 20px;
+
+}
+
+
+h4.request_nbr{
+    width: 30px;
+    height: 30px;
+    background-color: #1877f2;
+    color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    margin-right: 10px;
+}
